@@ -1,0 +1,5 @@
+{
+  "typescript.tsdk": "/Users/arpaul/.nvm/versions/node/v10.16.0/lib/node_modules/typescript/lib",
+  // Set the default
+  "editor.formatOnSave": true
+}
