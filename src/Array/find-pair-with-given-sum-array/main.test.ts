@@ -15,7 +15,7 @@ describe("find-pair-with-given-sum-array", function() {
     expect(res.length).to.equal(2);
   });
   it("hashing implementation", function() {
-    const res = FindPairs({ input, sum });
+    const res = FindPairs2({ input, sum });
     console.log(res);
     expect(res.length).to.equal(2);
   });
