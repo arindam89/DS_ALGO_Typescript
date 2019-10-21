@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import FindPairs from "./native";
+import FindPairs from ".";
 
 describe("find-pair-with-given-sum-array", function() {
   it("native implementation", function() {
