@@ -10,14 +10,14 @@ const FindPairs = ({
 }): string[] => {
   let i: number = 0;
   let j: number = 0;
-  const solution: string[] = [];
+  const solution: any[] = [];
 
   for (let i = 0; i < input.length; i++) {
     const first = input[i];
     for (let j = i + 1; j < input.length; j++) {
       const second = input[j];
       if (first + second === sum) {
-        solution.push(`i:${i}_j:${j}`);
+        solution.push([i, j]);
       }
     }
   }
