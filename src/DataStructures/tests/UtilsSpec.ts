@@ -1,4 +1,4 @@
-import {Utils} from "../ts/Utils";
+import {Utils} from "../main/Utils";
 describe("Utils", function () {
     describe("minIndex", function () {
         it("Should find the lowest index in part of array", function () {

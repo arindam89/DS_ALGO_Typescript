@@ -1,5 +1,5 @@
-import {} from "../ts/BinaryTree/RedBlackTree";
-import RedBlackTree from "../ts/BinaryTree/RedBlackTree";
+import {} from "../main/BinaryTree/RedBlackTree";
+import RedBlackTree from "../main/BinaryTree/RedBlackTree";
 
 describe("RedBlackTree", function () {
     describe("add" , function () {

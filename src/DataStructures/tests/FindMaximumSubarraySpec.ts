@@ -1,4 +1,4 @@
-import FindMaximumSubarray from "../ts/FindMaximumSubarray";
+import FindMaximumSubarray from "../main/FindMaximumSubarray";
 describe(`Find maximum subarray`, function () {
     it(`Find maximum subarray`, function () {
         let [leftIndex, rightIndex, sum] = FindMaximumSubarray([-1, 3, 2, 5, -1]);

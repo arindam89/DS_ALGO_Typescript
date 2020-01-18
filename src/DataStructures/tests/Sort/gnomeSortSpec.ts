@@ -1,4 +1,4 @@
-import gnomeSort from "../../ts/Sort/gnomeSort";
+import gnomeSort from "../../main/Sort/gnomeSort";
 describe("Gnome/Simple sort", function () {
     it("should sort", function () {
         expect(gnomeSort([1, 4, 2, 3])).toEqual([1, 2, 3, 4]);

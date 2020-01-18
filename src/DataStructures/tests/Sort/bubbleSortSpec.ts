@@ -1,4 +1,4 @@
-import bubbleSort from "../../ts/Sort/bubbleSort";
+import bubbleSort from "../../main/Sort/bubbleSort";
 describe("Bubble sort", function () {
     it("should sort", function () {
         expect(bubbleSort([1, 4, 2, 3])).toEqual([1, 2, 3, 4]);

@@ -1,4 +1,4 @@
-import { greatestCommonDivisor } from "../../ts/functions/greatestCommonDivisor";
+import { greatestCommonDivisor } from "../../main/functions/greatestCommonDivisor";
 
 describe("greatestCommonDivisor", () => {
     it("should be able to find common divisor for the same number", () => {

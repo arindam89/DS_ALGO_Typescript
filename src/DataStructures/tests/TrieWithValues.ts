@@ -1,4 +1,4 @@
-import {TrieWithValue} from "../ts/TrieWithValue";
+import {TrieWithValue} from "../main/TrieWithValue";
 
 describe("Trie", function () {
     it("should be able to check if word exist", function () {

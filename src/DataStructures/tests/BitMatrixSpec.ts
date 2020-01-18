@@ -1,4 +1,4 @@
-import {BitMatrix} from "../ts/BitMatrix";
+import {BitMatrix} from "../main/BitMatrix";
 
 describe("BitMatrix", function () {
     it("be able to set bits", function () {

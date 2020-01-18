@@ -1,4 +1,4 @@
-import binarySum from '../ts/binarySum';
+import binarySum from '../main/binarySum';
 describe('Binary sum', function () {
     it('should sum to arrays', function () {
         expect(binarySum([1,1], [0,1])).toEqual([1,0,0]); //3 + 1 = 4

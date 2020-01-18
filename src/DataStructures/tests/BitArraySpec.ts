@@ -1,4 +1,4 @@
-import {BitArray} from "../ts/BitArray";
+import {BitArray} from "../main/BitArray";
 
 describe("BitArray", function () {
     it("be able to set bits", function () {

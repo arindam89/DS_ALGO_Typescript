@@ -1,4 +1,4 @@
-import { extendedEuclidesAlgorithm } from "../../ts/functions/extendedEuclidesAlgorithm";
+import { extendedEuclidesAlgorithm } from "../../main/functions/extendedEuclidesAlgorithm";
 
 describe("extendedEuclidesAlgorithm", () => {
     it("should be able to find common divisor for the same number", () => {

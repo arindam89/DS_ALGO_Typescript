@@ -1,4 +1,4 @@
-import selectionSort from "../../ts/Sort/selectionSort";
+import selectionSort from "../../main/Sort/selectionSort";
 describe("selection sort sort", function () {
     it("should sort", function () {
         expect(selectionSort([4, 1])).toEqual([1, 4]);

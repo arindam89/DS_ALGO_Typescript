@@ -1,4 +1,4 @@
-import {ObjectArray} from "../ts/ObjectArray";
+import {ObjectArray} from "../main/ObjectArray";
 describe('ObjectArray', function () {
     
     it('should be able to add items', function () {

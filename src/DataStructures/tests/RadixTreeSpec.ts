@@ -1,4 +1,4 @@
-import {RadixTree} from "../ts/RadixTree";
+import {RadixTree} from "../main/RadixTree";
 
 describe("Radix Tree", function () {
     it("should be able to add word that doesn't exist", function () {

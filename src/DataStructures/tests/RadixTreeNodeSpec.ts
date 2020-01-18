@@ -1,4 +1,4 @@
-import {RadixTreeNode} from "../ts/RadixTreeNode";
+import {RadixTreeNode} from "../main/RadixTreeNode";
 
 describe("RadixTreeNode", function () {
     it("should be able to search empty node", function () {

@@ -1,4 +1,4 @@
-import { diophantineEquation } from "../../ts/functions/diophantineEquation";
+import { diophantineEquation } from "../../main/functions/diophantineEquation";
 
 describe("diophantineEquation", () => {
     it("should return NaN if both parameters are 0", () => {

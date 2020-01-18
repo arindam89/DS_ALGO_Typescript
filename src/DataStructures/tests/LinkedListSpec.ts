@@ -1,4 +1,4 @@
-import {LinkedList} from "../ts/LinkedList";
+import {LinkedList} from "../main/LinkedList";
 describe('LinkedList', function () {
 
     it('should be able to push items', function () {

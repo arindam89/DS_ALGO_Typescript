@@ -1,4 +1,4 @@
-import {DirectedAdjacencyMatrixGraph} from "../../ts/Graph/DirectedAdjacencyMatrixGraph";
+import {DirectedAdjacencyMatrixGraph} from "../../main/Graph/DirectedAdjacencyMatrixGraph";
 
 describe("DirectedAdjacencyMatrixGraph", function () {
     it("should be able to add nodes", function () {

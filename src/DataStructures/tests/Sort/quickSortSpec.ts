@@ -1,5 +1,5 @@
-import quickSort from "../../ts/Sort/quickSort";
-import {Utils} from "../../ts/Utils";
+import quickSort from "../../main/Sort/quickSort";
+import {Utils} from "../../main/Utils";
 describe("quicksort sort", function () {
     it("should sort", function () {
         expect(quickSort([4, 1])).toEqual([1, 4]);

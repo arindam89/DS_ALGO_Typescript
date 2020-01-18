@@ -1,4 +1,4 @@
-import {BinaryTree} from "../ts/BinaryTree/BinaryTree";
+import {BinaryTree} from "../main/BinaryTree/BinaryTree";
 
 describe("BinaryTree", function () {
     describe("add" , function () {

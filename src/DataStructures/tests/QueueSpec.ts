@@ -1,4 +1,4 @@
-import {Queue} from "../ts/Queue";
+import {Queue} from "../main/Queue";
 describe('Queue', function () {
 
     describe('enqueue', function () {

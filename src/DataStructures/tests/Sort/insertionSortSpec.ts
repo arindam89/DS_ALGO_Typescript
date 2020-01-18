@@ -1,5 +1,5 @@
-import insertionSort from "../../ts/Sort/insertionSort";
-import {Utils} from "../../ts/Utils";
+import insertionSort from "../../main/Sort/insertionSort";
+import {Utils} from "../../main/Utils";
 describe("Insertion sort", function () {
     it("should sort", function () {
         expect(insertionSort([1, 4, 2, 3])).toEqual([1, 2, 3, 4]);

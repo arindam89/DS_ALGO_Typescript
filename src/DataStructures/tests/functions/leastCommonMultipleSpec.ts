@@ -1,4 +1,4 @@
-import { leastCommonMultiple } from "../../ts/functions/leastCommonMultiple";
+import { leastCommonMultiple } from "../../main/functions/leastCommonMultiple";
 
 describe('leastCommonMultiple', function () {
     it('should calculate the least common multiple of two co-prime numbers', function () {

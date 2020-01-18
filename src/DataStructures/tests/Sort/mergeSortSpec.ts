@@ -1,4 +1,4 @@
-import mergeSort from "../../ts/Sort/mergeSort";
+import mergeSort from "../../main/Sort/mergeSort";
 describe("Merge sort", function () {
     it("should sort", function () {
         expect(mergeSort([1, 4, 2, 3])).toEqual([1, 2, 3, 4]);
