@@ -1,4 +1,4 @@
-import {IBitArray} from "./Interfaces/IBitArray";
+import {IBitArray} from "./IBitArray";
 export class BitArray implements IBitArray {
     private length: number = 0;
     private buffer: Uint32Array;

@@ -1,5 +1,5 @@
-import {ILinkedList} from "./Interfaces/ILinkedList";
-import {ITypedArray} from "./ITypedArray";
+import {ILinkedList} from "./ILinkedList";
+import {ITypedArray} from "../Array/ITypedArray";
 /*class TypedLinkedList implements  ILinkedList {
     public list:ITypedArray;
     public prevList:ITypedArray;

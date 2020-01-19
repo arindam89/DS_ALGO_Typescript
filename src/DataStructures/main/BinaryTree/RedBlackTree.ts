@@ -1,4 +1,4 @@
-import IBinaryTree from "../Interfaces/IBinaryTree";
+import IBinaryTree from "./IBinaryTree";
 import RedBlackTreeNode from "./RedBlackTreeNode";
 class RedBlackTree<T> implements IBinaryTree<T, RedBlackTreeNode<T>> {
 

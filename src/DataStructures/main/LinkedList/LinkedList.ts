@@ -1,4 +1,4 @@
-import {ILinkedListItem} from "./Interfaces/ILinkedListItem";
+import {ILinkedListItem} from "./ILinkedListItem";
 export class LinkedList<T> {
     public head:ILinkedListItem<T> = LinkedList.emptyListItem<T>();
     public length:number = 0;

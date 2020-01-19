@@ -1,4 +1,4 @@
-import {Stack} from "../main/Stack";
+import {Stack} from "../main/Stack/Stack";
 describe('Stack', function () {
     describe('clear', function () {
         it('should remove all elements from the stack', function () {

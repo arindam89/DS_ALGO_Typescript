@@ -1,4 +1,4 @@
-import {Trie} from "../main/Trie";
+import {Trie} from "../main/Trie/Trie";
 
 describe("Trie", function () {
     it("should be able to check if word exist", function () {

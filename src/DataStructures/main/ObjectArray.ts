@@ -1,5 +1,5 @@
 import {IObjectArrayProperty} from "./Interfaces/IObjectArrayProperty";
-import {ITypedArray} from "./ITypedArray";
+import {ITypedArray} from "./Array/ITypedArray";
 import {Utils} from "./Utils";
 export class ObjectArray {
     private columns:ITypedArray[] = [];

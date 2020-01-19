@@ -1,4 +1,4 @@
-import {BitArray} from "../main/BitArray";
+import {BitArray} from "../main/Array/BitArray";
 
 describe("BitArray", function () {
     it("be able to set bits", function () {

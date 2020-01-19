@@ -1,4 +1,4 @@
-import HashTable from "../main/HashTable";
+import HashTable from "../main/HashTables/HashTable";
 describe(`HashTable`, function () {
     it(`should be able to put elements and retrieve them`, function () {
         const table = new HashTable<number, number>(5, (key) => key);

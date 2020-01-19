@@ -1,4 +1,4 @@
-import {IBinaryTreeNode} from "../Interfaces/IBinaryTreeNode";
+import {IBinaryTreeNode} from "./IBinaryTreeNode";
 class RedBlackTreeNode<T> implements IBinaryTreeNode<T> {
     public static sentinel: RedBlackTreeNode<any> = new RedBlackTreeNode(null, null, true);
 

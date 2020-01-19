@@ -1,6 +1,6 @@
 import {IBitMatrix} from "../Interfaces/IBitMatrix";
 import {BitMatrix} from "../BitMatrix";
-import {Queue} from "../Queue";
+import {Queue} from "../Queue/Queue";
 
 export class DirectedAdjacencyMatrixGraph <T> {
     private hashFunction: (node: T) => string = (a: T) => a.toString();

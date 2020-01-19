@@ -1,4 +1,4 @@
-import {ITypedArray} from "./ITypedArray";
+import {ITypedArray} from "../Array/ITypedArray";
 export class TypedQueue {
     protected queue: ITypedArray;
     protected head:number = 0;

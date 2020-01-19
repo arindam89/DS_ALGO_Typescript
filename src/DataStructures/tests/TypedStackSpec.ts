@@ -1,4 +1,4 @@
-import {TypedStack} from "../main/TypedStack";
+import {TypedStack} from "../main/Stack/TypedStack";
 describe('Stack', function () {
     describe('clear', function () {
         it('should remove all elements from the stack', function () {

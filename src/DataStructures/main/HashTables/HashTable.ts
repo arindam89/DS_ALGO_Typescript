@@ -1,6 +1,6 @@
-import {IHashTable} from "./Interfaces/IHashTable";
-import {IKeyValuePair} from "./Interfaces/IKeyValuePair";
-import {Utils} from "./Utils";
+import {IHashTable} from "./IHashTable";
+import {IKeyValuePair} from "../Interfaces/IKeyValuePair";
+import {Utils} from "../Utils";
 export class HashTable<K, V> implements IHashTable<K, V> {
     private capacity: number = 0;
     private buckets: IKeyValuePair<K, V>[][] = [];

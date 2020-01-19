@@ -1,4 +1,4 @@
-import {IBinaryTreeNode} from "../Interfaces/IBinaryTreeNode";
+import {IBinaryTreeNode} from "./IBinaryTreeNode";
 export class BinaryTreeNode<T> implements IBinaryTreeNode<T>{
     public left:BinaryTreeNode<T> = null;
     public right:BinaryTreeNode<T> = null;

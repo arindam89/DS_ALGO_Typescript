@@ -1,4 +1,4 @@
-import {TypedQueue} from "../main/TypedQueue";
+import {TypedQueue} from "../main/Queue/TypedQueue";
 describe('Queue', function () {
     describe('enqueue', function () {
         it('should add elements to the stack', function () {

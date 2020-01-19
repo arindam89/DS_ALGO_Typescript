@@ -1,4 +1,4 @@
-import {IKeyValuePair} from "./IKeyValuePair";
+import {IKeyValuePair} from "../Interfaces/IKeyValuePair";
 
 export interface IHashTable<K, V> {
     clear(): void;

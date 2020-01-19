@@ -1,5 +1,5 @@
-import IBinaryTree from "../Interfaces/IBinaryTree";
-import {IBinaryTreeNode} from "../Interfaces/IBinaryTreeNode";
+import IBinaryTree from "./IBinaryTree";
+import {IBinaryTreeNode} from "./IBinaryTreeNode";
 import {BinaryTreeNode} from "./BinaryTreeNode";
 export class BinaryTree<T> implements IBinaryTree<T, IBinaryTreeNode<T>> {
 
