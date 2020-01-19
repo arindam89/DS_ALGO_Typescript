@@ -9,7 +9,7 @@ const FindPairs = ({
   input: number[];
   sum: number;
 }): string[] => {
-  let myMap: object = {};
+  let myMap: any = {};
   const solution: any[] = [];
   input.forEach((element, index) => {
     const gap = (sum - element).toString();

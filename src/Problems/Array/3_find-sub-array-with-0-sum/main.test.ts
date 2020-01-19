@@ -1,8 +1,6 @@
-import { expect } from "chai";
-
 describe("find-pair-with-given-sum-array", function() {
   // Local Variable Declaration
-  before("Initializing the test", () => {
+  beforeEach(() => {
     // Local Variable Initialization
   });
   it("Test case description", function() {

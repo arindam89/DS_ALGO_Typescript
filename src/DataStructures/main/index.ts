@@ -16,7 +16,7 @@ import {Utils} from "./Utils";
 import binarySum from "./binarySum";
 import linearSearch from "./linearSearch";
 import BinaryTree from "./BinaryTree/index";
-import functions from "./functions/index";
+import functions from "../../Algorithms/functions/index";
 import Graph from "./Graph/index";
 import Sort from "./Sort/index";
 
