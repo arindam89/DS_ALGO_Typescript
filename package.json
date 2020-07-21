@@ -4,8 +4,8 @@
   "description": "Algorithms Written in TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r ts-node/register src/**/*.test.ts",
-    "testDS": "npx jest --config jestconfig.json",
+    "test_old": "mocha -r ts-node/register src/**/*.test.ts",
+    "test": "npx jest --config jestconfig.json",
     "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
   },
   "author": "Arindam Paul",
