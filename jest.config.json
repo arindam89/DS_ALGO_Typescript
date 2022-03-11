@@ -1,0 +1,26 @@
+{
+  "verbose": true,
+  "transform": {
+    "^.+\\.(t|j)sx?$": "ts-jest"
+  },
+  "testRegex": [
+    "(/tests/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "/__tests__/"
+  ],
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "json",
+    "node"
+  ],
+  "collectCoverage": true,
+  "coverageDirectory": "coverage",
+  "modulePathIgnorePatterns": [
+    "template"
+  ],
+  "coverageReporters": [
+    "text"
+  ]
+}

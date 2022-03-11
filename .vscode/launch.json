@@ -1,12 +1,28 @@
 {
   "version": "0.2.0",
-  "configurations": [{
-    "type": "node",
-    "request": "launch",
-    "name": "Debug this file",
-    "program": "${file}",
-    "skipFiles": [
-      "<node_internals>/**"
-    ]
-  }, ]
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug this file",
+      "program": "${file}",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "name": "Debug Jest Tests",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "/home/vscode/.nvm/versions/node/v17.7.1/bin/node",
+      "runtimeArgs": [
+        "--inspect-brk",
+        "${workspaceRoot}/node_modules/jest/bin/jest.js",
+        "--runInBand"
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "port": 9229
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-import {Stack} from "../src/DataStructures/main/Stack/Stack";
+import { Stack } from "../src/DataStructures/main/Stack/Stack";
 describe('Stack', function () {
     describe('clear', function () {
         it('should remove all elements from the stack', function () {
@@ -48,7 +48,7 @@ describe('Stack', function () {
             s.pop();
             expect(s.peek()).toEqual(1);
             s.pop();
-            expect(s.peek).toThrow();
+            expect(() => s.peek()).toThrow(new Error('The stack is empty'));
         });
     });
 
@@ -61,7 +61,7 @@ describe('Stack', function () {
             s.push(3);
             expect(s.pop()).toEqual(3);
             expect(s.pop()).toEqual(2);
-            expect(s.pop).toThrow();
+            expect(() => s.pop()).toThrow(new Error('The stack is empty'));
         });
     });
 

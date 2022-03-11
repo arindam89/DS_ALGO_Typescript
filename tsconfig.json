@@ -8,9 +8,16 @@
     "outDir": "dist/",
     "sourceMap": true,
     "declaration": true,
-    "types": ["jest"],
+    "types": [
+      "jest"
+    ],
     "target": "ES2017",
     "noEmit": true
   },
-  "exclude": ["node_modules", "wwwroot", "dist", "tests"]
+  "exclude": [
+    "node_modules",
+    "wwwroot",
+    "dist",
+    "__tests__"
+  ]
 }
