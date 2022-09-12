@@ -22,7 +22,7 @@ LeetCode folder has almost all questions from leetcode and techiedelight. E.g.
 ## Installation and Usage
 You will need Node.js for this programs. So go ahead and install the same. 
 * Install Dependencies `npm install`
-* Run tests `npm run tests`
+* Run tests `npm run test`
 
 ## Reporting Issues
 Feel free to email at arindampaul1989@gmail.com for any queries and issues.
