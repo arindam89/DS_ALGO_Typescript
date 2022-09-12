@@ -1,11 +1,14 @@
-# AlgorithmsTypescript
+# Data Structures & Algorithms (JS & Typescript)
 
 Algorithms and DataStructures Implemented in TypeScript
 
 ## Sections
 Explore this repo to find different sections which will be useful for different kind of preparation and revision. 
+* DataStructures
+* AlgoRithms
+* LeetCode
 
-## Leecode
+## Leecode Interview Prep
 LeetCode folder has almost all questions from leetcode and techiedelight. E.g.
 
 * GRIND 75
